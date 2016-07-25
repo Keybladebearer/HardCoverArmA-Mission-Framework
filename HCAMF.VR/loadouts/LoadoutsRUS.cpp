@@ -107,22 +107,32 @@ class RUS {
 			//Chemical lights
 			#define chemred "Chemlight_red"
 			
-			// ace equipment - what everyone should have
-			#define ace_default	{"ACE_fieldDressing",10}, \
+				// ace equipment - what everyone should have
+			#define ace_default	{"ACE_fieldDressing",15}, \
 								{"ACE_morphine",1}, \
+								{"ACE_elasticBandage",2}, \
+								{"ACE_packingBandage",2}, \
+								{"ACE_tourniquet",2}, \
+								{"ACE_quikclot",2}, \
 								{"ACE_EarPlugs",1},\
-								{ACE_bodyBag,1},\
+								{"ACE_bodyBag",1},\
 								{"ACE_Flashlight_XL50",1}
 
 
 			//Override for a Medic					
-			#define ace_medic	{"ACE_fieldDressing",30}, \
-								{"ACE_morphine",15}, \
+			#define ace_medic	{"ACE_fieldDressing",20}, \
+								{"ACE_elasticBandage",10}, \
+								{"ACE_packingBandage",10}, \
+								{"ACE_quikclot",10}, \
+								{"ACE_morphine",10}, \
 								{"ACE_epinephrine",10}, \
-								{"ACE_bloodIV_500",6}, \
+								{"ACE_atropine",5}, \
+								{"ACE_adenosine",5}, \
+								{"ACE_tourniquet",5}, \
+								{"ACE_salineIV_250",5}, \
+								{"ACE_personalAidKit",1}, \
 								{"ACE_EarPlugs",1}, \
 								{"ACE_Flashlight_XL50",1}
-			
 			//Other ace
 			#define ace_epipen "ACE_epinephrine" // For PC, SL, FTL
 			#define ace_sparebarrel "ACE_SpareBarrel"
