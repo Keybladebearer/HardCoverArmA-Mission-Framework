@@ -169,6 +169,7 @@ class USA {
 
 			//Uniform		
 			#define default_uniform "CUP_U_B_USArmy_Base", "CUP_U_B_USArmy_TwoKnee", "CUP_U_B_USArmy_UBACS"
+			#define pilot_uniform "CUP_U_B_USArmy_PilotOverall"
 			#define crew_uniform "CUP_U_B_USArmy_PilotOverall"
 			
 			//Headgear
