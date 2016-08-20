@@ -39,63 +39,63 @@ class RUS {
 			//=== Weapons ===
 			
 			//Attachments
-			#define rifle_sup "CUP_muzzle_PBS4"
+			#define rifle_sup "rhs_acc_dtk"
 			#define ar_sup "hlc_muzzle_762SUP_AK"
-			#define aim_scope "CUP_optic_Kobra"
-			#define ar_scope "CUP_optic_PechenegScope"
-			#define marksman_scope "CUP_optic_PSO_1"
-			#define mat_scope "CUP_optic_PGO7V3"
+			#define aim_scope "rhs_acc_ekp1"
+			#define ar_scope "rhs_acc_pkas"
+			#define marksman_scope "rhs_1PN138"
+			#define mat_scope "rhs_acc_pso1m21";
 			
 			// Standard Riflemen (Assistants, Rifleman)
-			#define rifle "CUP_arifle_AK74M"
-			#define riflemag "CUP_30Rnd_545x39_AK_M"
-			#define riflemag_tr "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M" 
+			#define rifle "rhs_weap_ak74m_gp25"
+			#define riflemag "hlc_30Rnd_545x39_B_AK"
+			#define riflemag_tr hlc_30Rnd_545x39_t_ak"
 			
 			//Auto-Rifleman
-			#define ar "CUP_arifle_RPK74_45"
-			#define armag "CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M" // Green Tracer 45 Round
+			#define ar "hlc_rifle_rpk74n"
+			#define armag "hlc_45Rnd_545x39_t_rpk" // Green Tracer 45 Round
 			
 			//Rifleman AT
-			#define rat "CUP_launch_RPG18"
+			#define rat rhs_weap_rpg26"
 			#define ratmag "ACE_PreloadedMissileDummy_RPG18_CUP"
 			
 			//Medium MG
-			#define mmg "CUP_lmg_Pecheneg"
-			#define mmgmag "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
+			#define mmg "rhs_weap_pkp"
+			#define mmgmag rhs_100Rnd_762x54mmR"
 			
 			//Medium AT
-			#define mat "CUP_launch_RPG7V"
-			#define matmag "CUP_PG7VL_M"
+			#define mat "rhs_weap_rpg7"
+			#define matmag rhs_rpg26_mag"
 			
 			// Rifle with GL and HE grenades - CO, DC, FTLs
-			#define glrifle "CUP_arifle_AK74M_GL"
-			#define glriflemag "CUP_30Rnd_545x39_AK_M"
-			#define glriflemag_tr "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"
-			#define glmag {"CUP_1Rnd_HE_GP25_M",15}
+			#define glrifle "rhs_weap_ak74m_gp25"
+			#define glriflemag "hlc_30Rnd_545x39_B_AK"
+			#define glriflemag_tr "hlc_30Rnd_545x39_t_ak"
+			#define glmag {"hlc_VOG25_AK",15}
 			
 			//Marksman/Sniper
-			#define dmr "CUP_srifle_SVD"
-			#define sniper "CUP_srifle_SVD_des" // has camo skin
-			#define dmrMag "CUP_10Rnd_762x54_SVD_M"
+			#define dmr "rhs_weap_svdp"
+			#define sniper "rhs_weap_svdp_wd" // has camo skin
+			#define dmrMag "rhs_10Rnd_762x54mmR_7N1"
 			
 			// Standard Sub-machine Gun/Personal Defence Weapon (Aircraft Pilot, Sub-machine-gunner, Vehicle Crew) 
-			#define smg "CUP_arifle_AKS74U" 
-			#define smgmag "CUP_30Rnd_545x39_AK_M"
-			#define smgmag_tr "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M"
+			#define smg "rhs_weap_aks74u"
+			#define smgmag "hlc_30Rnd_545x39_B_AK"
+			#define smgmag_tr "hlc_30Rnd_545x39_t_ak"
 			
 			// Smoke for FTLs, Squad Leaders, etc //use with HLC AK's only
-			#define glsmoke {"CUP_1Rnd_SMOKE_GP25_M",6},  \
-								{"CUP_1Rnd_SmokeGreen_GP25_M",3}, \
-								{"CUP_1Rnd_SmokeRed_GP25_M",3},  \
-								{"CUP_1Rnd_SmokeYellow_GP25_M",3}
+			#define glsmoke {"hlc_GRD_White",6},  \
+								{"hlc_GRD_green",3}, \
+								{"hlc_GRD_Red",3},  \
+								{"hlc_GRD_yellow",3}
 
 			// Flare gl grenades - CO, DC, FTLs        //Dont use with HLC AK's at all
-			#define glflare 	{"CUP_FlareWhite_GP25_M",3}, \
-									{"CUP_FlareRed_GP25_M",2}, \
-									{"CUP_FlareGreen_GP25_M",2}
+			#define glflare 	{"rhs_GRD40_White",3}, \
+									{"rhs_GRD40_Red",2}, \
+									{"rhs_GRD40_Green",2}
 									
 			// Grenades
-			#define grenade "CUP_HandGrenade_RGD5"
+			#define grenade "rhs_mag_rgo"
 			#define smokegrenadewhite "SmokeShell"
 			#define handFlareRed "ACE_HandFlare_Red"
 			#define handFlareGreen "ACE_HandFlare_Green"
@@ -158,35 +158,35 @@ class RUS {
 			//=== Clothes ===
 
 			//Uniform		
-			#define default_uniform "CUP_U_O_RUS_EMR_1", "CUP_U_O_RUS_EMR_2"
-			#define pilot_uniform "CUP_U_O_RUS_EMR_1"
-			#define sniper_uniform "CUP_U_O_RUS_Ghillie"
+			#define default_uniform "rhs_uniform_emr_patchless"
+			#define pilot_uniform "rhs_uniform_df15_tan"
+			#define sniper_uniform "rhs_uniform_gorka_r_g"
 				
 			//Headgear
-			#define leader_headgear "CUP_H_RUS_Bandana_HS"
-			#define default_headgear "CUP_H_RUS_6B27"
-			#define vcrew_headgear "CUP_H_RUS_TSH_4_Brown"
-			#define pilot_headgear "CUP_H_RUS_ZSH_Shield_Down"
-			#define aircrew_headgear "CUP_H_RUS_ZSH_Shield_Up"
-			#define sniper_headgear ""
+			#define leader_headgear "rhs_fieldcap_digi2"
+			#define default_headgear "rhs_6b27m_digi", "rhs_6b27m_digi_ess"
+			#define vcrew_headgear "rhs_tsh4"
+			#define pilot_headgear "rhs_zsh7a_mike_green_alt"
+			#define aircrew_headgear "rhs_zsh7a_mike_green"
+			#define sniper_headgear "rhs_beanie_green"
 			
 			//Backpack
-			#define default_backpack "CUP_B_HikingPack_Civ"
-			#define rpg_backpack "CUP_B_RPGPack_Khaki"
-			#define pilot_backpack "CUP_B_AssaultPack_Coyote"
-			#define engineer_backpack "CUP_B_RUS_Backpack"
-			#define mortg_backpack "CUP_B_Podnos_Gun_Bag"
-			#define morta_backpack "CUP_B_Podnos_Bipod_Bag"
+			#define default_backpack "rhs_assault_umbts"
+			#define rpg_backpack "rhs_rpg_empty"
+			#define pilot_backpack "rhs_assault_umbts"
+			#define engineer_backpack "rhs_assault_umbts_engineer_empty"
+			#define mortg_backpack "RHS_Podnos_Gun_Bag"
+			#define morta_backpack "RHS_Podnos_Bipod_Bag"
 			
 			
 			//Vests
-			#define vest_default "CUP_V_RUS_6B3_2"
-			#define vest_medic "CUP_V_RUS_6B3_3"
-			#define vest_engineer "CUP_V_RUS_6B3_1"
-			#define vest_sniper "CUP_V_RUS_Smersh_1"
-			#define vest_vehiclecrew "CUP_V_RUS_6B3_3"
-			#define vest_pilot "CUP_V_I_Carrier_Belt"
-			#define vest_leader "CUP_V_RUS_6B3_1"
+			#define vest_default "rhs_6b23_6sh116"
+			#define vest_medic "rhs_6b23_digi_medic"
+			#define vest_engineer "rhs_6b23_digi_engineer"
+			#define vest_sniper "rhs_6b23_digi_sniper"
+			#define vest_vehiclecrew "rhs_6b23_digi_crew"
+			#define vest_pilot "rhs_6sh46"
+			#define vest_leader "rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz"
 			
 			//Face
 			#define facecover ""
@@ -228,7 +228,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Platoon Sgt. (RTO)==================
@@ -262,7 +262,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Squad Leader (deputy leader)==================
@@ -296,7 +296,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Forward Observer==================
@@ -362,7 +362,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Mortar Assist==================
@@ -395,7 +395,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Medic==================
@@ -459,7 +459,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Rifleman==================
@@ -490,7 +490,7 @@ class RUS {
 				assignedItems[] = {default_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Auto-Rifleman (Machine Gunner)==================
@@ -554,7 +554,7 @@ class RUS {
 				assignedItems[] = {default_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Rifleman (AT)==================
@@ -586,7 +586,7 @@ class RUS {
 				assignedItems[] = {default_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};//================Medium MG==================
 			class MMG {
@@ -678,7 +678,7 @@ class RUS {
 				assignedItems[] = {leader_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {mat_scope};
 			};
 			//================Medium (AT) Assistant==================
@@ -709,7 +709,7 @@ class RUS {
 				assignedItems[] = {default_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Designated Marksman==================
@@ -800,7 +800,7 @@ class RUS {
 				assignedItems[] = {defualt_equipment};
 				items[] = {	}; //do not use if using specific allocation of items
 				
-				priKit[] = {};
+				priKit[] = {rifle_sup};
 				secKit[] = {};
 			};
 			//================Vehicle Crew==================
