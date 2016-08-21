@@ -168,14 +168,11 @@ class USA {
 			//=== Clothes ===
 
 			//Uniform		
-<<<<<<< HEAD
 			#define default_uniform "CUP_U_B_USArmy_Base", "CUP_U_B_USArmy_TwoKnee", "CUP_U_B_USArmy_UBACS"
 			#define pilot_uniform "CUP_U_B_USArmy_PilotOverall"
 			#define crew_uniform "CUP_U_B_USArmy_PilotOverall"
-=======
 			#define default_uniform "rhs_uniform_cu_ocp"
 			#define crew_uniform "LOP_U_TKA_Fatigue_02"
->>>>>>> origin/master
 			
 			//Headgear
 			#define leader_headgear "rhsusf_ach_helmet_ocp", "rhsusf_ach_helmet_ESS_ocp", "rhsusf_ach_helmet_headset_ocp"
