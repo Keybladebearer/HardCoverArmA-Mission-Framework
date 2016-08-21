@@ -65,7 +65,7 @@ class RUS {
 			
 			//Medium AT
 			#define mat "rhs_weap_rpg7"
-			#define matmag rhs_rpg26_mag"
+			#define matmag "rhs_rpg26_mag"
 			
 			// Rifle with GL and HE grenades - CO, DC, FTLs
 			#define glrifle "rhs_weap_ak74m_gp25"
