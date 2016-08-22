@@ -49,23 +49,23 @@ class RUS {
 			// Standard Riflemen (Assistants, Rifleman)
 			#define rifle "rhs_weap_ak74m_gp25"
 			#define riflemag "hlc_30Rnd_545x39_B_AK"
-			#define riflemag_tr hlc_30Rnd_545x39_t_ak"
+			#define riflemag_tr "hlc_30Rnd_545x39_t_ak"
 			
 			//Auto-Rifleman
 			#define ar "hlc_rifle_rpk74n"
 			#define armag "hlc_45Rnd_545x39_t_rpk" // Green Tracer 45 Round
 			
 			//Rifleman AT
-			#define rat rhs_weap_rpg26"
-			#define ratmag "ACE_PreloadedMissileDummy_RPG18_CUP"
+			#define rat "rhs_weap_rpg26"
+			#define ratmag "rhs_rpg26_mag"
 			
 			//Medium MG
 			#define mmg "rhs_weap_pkp"
-			#define mmgmag rhs_100Rnd_762x54mmR"
+			#define mmgmag "rhs_100Rnd_762x54mmR"
 			
 			//Medium AT
 			#define mat "rhs_weap_rpg7"
-			#define matmag "rhs_rpg26_mag"
+			#define matmag "rhs_rpg7_PG7VR_mag"
 			
 			// Rifle with GL and HE grenades - CO, DC, FTLs
 			#define glrifle "rhs_weap_ak74m_gp25"
@@ -147,7 +147,7 @@ class RUS {
 			#define ap_mine "APERSMine_Range_Mag"
 			#define minedetector "MineDetector"
 			#define binoculars "Binocular"
-			#define range_finder "ACE_MX2A"
+			#define range_finder "lerca_1200_black"
 			#define laserd "Laserdesignator"
 			#define battery "Laserbatteries"
 			

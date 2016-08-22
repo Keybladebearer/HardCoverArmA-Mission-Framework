@@ -88,8 +88,8 @@ class USA {
 			#define snipermag "rhsusf_5Rnd_762x51_m118_special_Mag"
 			
 			// Standard Sub-machine Gun/Personal Defence Weapon (Aircraft Pilot, Sub-machine-gunner, Vehicle Crew) 
-			#define smg "CUP_smg_MP5A5" 
-			#define smgmag "CUP_30Rnd_9x19_MP5"
+			#define smg "rhs_weap_m4a1" 
+			#define smgmag "rhs_mag_30Rnd_556x45_Mk318_Stanag"
 			
 			// Smoke for FTLs, Squad Leaders, etc
 			#define glsmoke {"rhs_mag_m714_White",8},  \
@@ -157,7 +157,7 @@ class USA {
 			#define ap_mine "APERSBoundingMine_Range_Mag"
 			#define minedetector "MineDetector"
 			#define binoculars "Binocular"
-			#define range_finder "lerca_1200_tan"
+			#define range_finder "lerca_1200_black"
 			#define laserd "Laserdesignator"
 			#define battery "Laserbatteries"
 			
@@ -168,10 +168,8 @@ class USA {
 			//=== Clothes ===
 
 			//Uniform		
-			#define default_uniform "CUP_U_B_USArmy_Base", "CUP_U_B_USArmy_TwoKnee", "CUP_U_B_USArmy_UBACS"
-			#define pilot_uniform "CUP_U_B_USArmy_PilotOverall"
-			#define crew_uniform "CUP_U_B_USArmy_PilotOverall"
 			#define default_uniform "rhs_uniform_cu_ocp"
+			#define pilot_uniform "LOP_U_TKA_Fatigue_02"
 			#define crew_uniform "LOP_U_TKA_Fatigue_02"
 			
 			//Headgear
