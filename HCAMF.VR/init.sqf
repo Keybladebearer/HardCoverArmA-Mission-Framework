@@ -1,6 +1,8 @@
 [] execVM "briefing.sqf";  // briefings in sqf format have to called in the init
 player addrating 99999; // because fuck that "player turns hostile" shit 
 
+addMissionEventHandler ["Ended",{execVM "scripts/ocap.sqf"}];
+
 //ACRE stuff
 //Change the variable to true if you want to enable the functionality
 //NOTE: for adding a translator, see the translator.sqf file in the scripts folder.
@@ -18,7 +20,6 @@ _acrelangandfreq = true;
 _acrelang = false;
 //Add unique radio channels to each side. If the unified option is enabled this must be false.
 _acrefreq = false;
-
 
 //Acre switches
 if (_acremain)then{
