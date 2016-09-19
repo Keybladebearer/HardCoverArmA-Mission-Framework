@@ -1,6 +1,7 @@
 [] execVM "briefing.sqf";  // briefings in sqf format have to called in the init
 player addrating 99999; // because fuck that "player turns hostile" shit 
 
+//Call OCAP
 addMissionEventHandler ["Ended",{execVM "scripts/ocap.sqf"}];
 
 //ACRE stuff
