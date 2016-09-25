@@ -22,8 +22,7 @@ pvpfw_chatIntercept_allCommands = [
 		"saveocap",
 		{
 			SystemChat "Dumping OCAP Replay...";
-			_handle = []execVM "scripts/chat/ocapdump.sqf";
-			waitUntil { scriptDone _handle};
+			[] call ocap_fnc_exportData;
 			SystemChat "OCAP Replay Saved";
 		}
 	]
