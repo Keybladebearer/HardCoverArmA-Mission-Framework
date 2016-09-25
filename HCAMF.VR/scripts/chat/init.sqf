@@ -1,7 +1,7 @@
-[] call compile preProcessFilelineNumbers "scripts/hca_customcommands/config.sqf";
-[] call compile preProcessFilelineNumbers "scripts/hca_customcommands/commands.sqf";
+[] call compile preProcessFilelineNumbers "scripts\chat\config.sqf";
+[] call compile preProcessFilelineNumbers "scripts\chat\commands.sqf";
 
-pvpfw_chatIntercept_executeCommand = compile preProcessFilelineNumbers "scripts/hca_customcommands/executeCommand.sqf";
+pvpfw_chatIntercept_executeCommand = compile preProcessFilelineNumbers "scripts\chat\executeCommand.sqf";
 
 // Reset and old EH IDs and scripthandles
 if (!isNil "pvpfw_chatIntercept_handle")then{

@@ -15,13 +15,16 @@ pvpfw_chatIntercept_allCommands = [
 	[
 	//a silly little jump script
 		"jump",
-		{player setVelocity [0,0,3]}
+		{player setVelocity [0,0,3];}
 	],
 	[
 	//saves ocap recording
 		"saveocap",
 		{
-			_handle = []execVM "scripts/hca_customcommands/ocapdump.sqf";
+			SystemChat "Dumping OCAP Replay...";
+			_handle = []execVM "scripts/chat/ocapdump.sqf";
+			waitUntil { scriptDone _handle};
+			SystemChat "OCAP Replay Saved";
 		}
 	]
 ];

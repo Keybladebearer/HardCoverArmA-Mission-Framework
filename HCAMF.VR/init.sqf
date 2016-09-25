@@ -2,7 +2,7 @@
 player addrating 99999; // because fuck that "player turns hostile" shit .
 
 //Call Custom chat commands
-commands = [] execVM "scripts/hca_customcommands/customcominit.sqf";
+[] execVM "scripts\chat\init.sqf";
 
 //ACRE stuff
 //Change the variable to true if you want to enable the functionality, flase if you want to disable it.
